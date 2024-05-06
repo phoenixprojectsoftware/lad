@@ -1,0 +1,14 @@
+// Valve Game Info Files
+// These are key/value pairs. Certain mods will use different settings.
+//
+game "Lost and Dead Classic"
+gamedir "lad"
+startmap "l1a1"
+trainmap "l1a1"
+mpentity "info_player_deathmatch"
+gamedll "dlls\hl.dll"
+gamedll_linux "dlls/hl.so"
+gamedll_osx "dlls/hl.dylib"
+secure "1"
+type "singleplayer_only"
+icon "image"

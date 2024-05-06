@@ -1,0 +1,187 @@
+hlcsg v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlcsg.exe" E:\SteamLibrary\steamapps\common\Half-Life\lad\maps\l0 
+Arguments: E:\SteamLibrary\steamapps\common\Half-Life\lad\maps\l0 -low -wadautodetect 
+Entering E:\SteamLibrary\steamapps\common\Half-Life\lad\maps\l0.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       8 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+UTF8 game_text        [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+ (0.13 seconds)
+CSGBrush:
+ (0.22 seconds)
+
+added 17 additional animating textures.
+Using Wadfile: \SteamLibrary\steamapps\common\Half-Life\valve\halflife.wad
+ - Contains 118 used textures, 98.33 percent of map (3116 textures in wad)
+Using Wadfile: \SteamLibrary\steamapps\common\Half-Life\valve\liquids.wad
+ - Contains 1 used texture, 0.83 percent of map (32 textures in wad)
+Using Wadfile: \SteamLibrary\steamapps\common\Half-Life\valve\xeno.wad
+ - Contains 1 used texture, 0.83 percent of map (264 textures in wad)
+
+Wad files required to run the map: "halflife.wad;liquids.wad;xeno.wad;"
+Texture usage is at 1.00 mb (of 32.00 mb MAX)
+0.84 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlbsp.exe" E:\SteamLibrary\steamapps\common\Half-Life\lad\maps\l0 
+Arguments: E:\SteamLibrary\steamapps\common\Half-Life\lad\maps\l0 -low -chart 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       8 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 500...1000...1147 (0.18 seconds)
+BSP generation successful, writing portal file 'E:\SteamLibrary\steamapps\common\Half-Life\lad\maps\l0.prt'
+SolidBSP [hull 1] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-156,-1258,178)-(-116,-1258,266) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+500...800 (0.10 seconds)
+SolidBSP [hull 2] 500...659 (0.07 seconds)
+SolidBSP [hull 3] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-156,-1258,196)-(-116,-1258,248) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+500...846 (0.10 seconds)
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-230,-1503,188)-(-228,-1495,196) in hull 1 of model 43 (entity: classname "func_pushable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-230,-1503,170)-(-228,-1495,178) in hull 3 of model 43 (entity: classname "func_pushable", origin "", targetname "")
+Reduced 6882 clipnodes to 6431
+Reduced 1032 texinfos to 932
+Reduced 120 texdatas to 114 (5284 bytes to 5020)
+Reduced 8452 planes to 2931
+FixBrinks:
+Increased 6431 clipnodes to 6528.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models            116/512         7424/32768    (22.7%)
+planes           2931/32768      58620/655360   ( 8.9%)
+vertexes         8321/65535      99852/786420   (12.7%)
+nodes            2900/32767      69600/786408   ( 8.9%)
+texinfos          932/32767      37280/1310680  ( 2.8%)
+faces            6135/65535     122700/1310700  ( 9.4%)
+* worldfaces     3296/32768          0/0        (10.1%)
+clipnodes        6528/32767      52224/262136   (19.9%)
+leaves           1988/32760      55664/917280   ( 6.1%)
+* worldleaves     647/8192           0/0        ( 7.9%)
+marksurfaces     7167/65535      14334/131070   (10.9%)
+surfedges       30120/512000    120480/2048000  ( 5.9%)
+edges           15161/256000     60644/1024000  ( 5.9%)
+texdata          [variable]       5020/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]      35701/2097152  ( 1.7%)
+* AllocBlock       17/64             0/0        (26.6%)
+114 textures referenced
+=== Total BSP file data space used: 739543 bytes ===
+Wad files required to run the map: "halflife.wad;liquids.wad;xeno.wad;"
+2.01 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlvis -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlvis.exe" E:\SteamLibrary\steamapps\common\Half-Life\lad\maps\l0 
+Arguments: E:\SteamLibrary\steamapps\common\Half-Life\lad\maps\l0 -low 
+ 647 portalleafs
+1734 numportals
+
+-= Current hlvis Settings =-
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       8 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [     off ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+max vis distance    [       0 ] [       0 ]
+priority            [     Low ] [  Normal ]
+
+fast vis            [     off ] [     off ]
+full vis            [     off ] [     off ]
+
+
+BasePortalVis:
+ (0.08 seconds)
+LeafThread:
+ (1.24 seconds)
+average leafs visible: 71
+g_visdatasize:20967  compressed from 52407
+1.35 seconds elapsed
+
+-----   END   hlvis -----
+
+
+
